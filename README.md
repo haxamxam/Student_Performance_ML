@@ -14,3 +14,9 @@ To estimate the performance of the prediction models a 10-fold cross-validation 
   <img src="https://github.com/haxamxam/student_performance/blob/main/student_performance_1.png" width="500" alt="test">
 </p>
 
+## Confusion Matrix
+
+<p align="center">
+  <img src="https://github.com/haxamxam/student_performance/blob/main/confusion.png" width="500" title="train">
+  <img src="https://github.com/haxamxam/student_performance/blob/main/confusion_1.png" width="500" alt="test">
+</p>
