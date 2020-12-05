@@ -7,6 +7,31 @@ Student retention is considered an important aspect in several many enrollment m
 
 To estimate the performance of the prediction models a 10-fold cross-validation approach was used in this case study.
 
+
+## Model Selection and Libraries
+
+```python
+from sklearn.neural_network import MLPClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn import model_selection
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import train_test_split
+
+#define all of our models
+models = [
+          ('Log_Regression', LogisticRegression(solver='liblinear')), 
+          ('Dec_Tree', DecisionTreeClassifier(max_depth=5)),
+          ('MLP_ANN', MLPClassifier(hidden_layer_sizes=(256,128,128, 32),activation="relu",random_state=1)),
+          ('SVM', SVC(kernel = 'linear', gamma='scale'))
+        ]
+
+
+```
+
 ## Training and Testing Scores
 
 <p align="center">
