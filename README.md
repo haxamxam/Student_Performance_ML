@@ -11,13 +11,13 @@ To estimate the performance of the prediction models a 10-fold cross-validation 
 ## Model Selection and Libraries
 
 ```python
-from sklearn.neural_network import MLPClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn import model_selection
+from sklearn.neural_network import MLPClassifier # MLP Neural Network Classifier first model 
+from sklearn.linear_model import LogisticRegression #Logistic Regression second model
+from sklearn.svm import SVC # SVM third model
+from sklearn.tree import DecisionTreeClassifier # Decision tree Classifier fourth model
+from sklearn import model_selection # mode selection for kfold cv
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
 
