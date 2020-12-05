@@ -15,7 +15,7 @@ from sklearn.neural_network import MLPClassifier # MLP Neural Network Classifier
 from sklearn.linear_model import LogisticRegression #Logistic Regression second model
 from sklearn.svm import SVC # SVM third model
 from sklearn.tree import DecisionTreeClassifier # Decision tree Classifier fourth model
-from sklearn import model_selection # mode selection for kfold cv
+from sklearn import model_selection # model selection for kfold cv
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import cross_val_score
