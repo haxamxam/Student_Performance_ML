@@ -10,7 +10,7 @@ To estimate the performance of the prediction models a 10-fold cross-validation 
 ## Training and Testing Scores
 
 <p align="center">
-  <img src="https://github.com/haxamxam/student_performance/blob/main/student_performance.png" width="350" title="train">
-  <img src="https://github.com/haxamxam/student_performance/blob/main/student_performance_1.png" width="350" alt="test">
+  <img src="https://github.com/haxamxam/student_performance/blob/main/student_performance.png" width="500" title="train">
+  <img src="https://github.com/haxamxam/student_performance/blob/main/student_performance_1.png" width="500" alt="test">
 </p>
 
